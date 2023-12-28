@@ -1,0 +1,103 @@
+.container {
+    width: 100%;
+    margin: auto;
+    border-radius: 10px ;
+    border: black solid 3px;
+
+    background-image: url(https://encrypted-tbn0.gstaic.com/images?q=tbn:ANd9GcQ6kSIuM49yRYZxE_qLCpJofp4xaz5K-O8Jaw&usqp=CAU);
+  }
+  .container h2 {
+    text-align: center;
+    color: yellow;
+    font-size: 42px;
+   
+  }
+  /* Chiều cao, chiều dài của phần tử sẽ bao gồm cả padding mà margin của nó */
+  * {
+    box-sizing: border-box;
+  }
+  .list-container{
+    margin: auto;
+    color: yellow;
+    font-size: 20px;
+  
+
+    
+  }
+  .list th{
+   padding: 30px;
+   color: yellow;
+   background-color: rgb(16, 15, 15);
+   border-radius: 10px;
+  }
+  .list th:hover{
+    transform: translateY(-10px);
+    
+  
+  }
+  
+   
+  /* khi thẻ li được chọn thì thêm màu nền và gạch ngang chữ */
+
+  
+  /* Định dạng button xóa công việc */
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+   
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+  }
+   
+  /* phần header của danh sách */
+  .header {
+   
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+  }
+   
+  /* xóa float của các phần trước header */
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+   
+  /* định dạng phần thẻ input */
+  input {
+    border: none;
+    width: 30%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-left: 2px;
+  }
+   
+  /* định dạng button "thêm" */
+  .btn{
+    padding: 15px;
+    width: 8%;
+    float: left;
+    margin-top: -1px;
+    text-align: center;
+    font-size: 10px;
+    border-radius: 10px;
+    margin-left: 2px;
+  }
+   
+  .btn:hover {
+    background-color: #3acc6d;
+  }
+  #myDIV  h2 {
+color: rgb(212, 222, 27);
+  }
+  #myDIV  h2:hover {
+    color:rgb(112, 9, 9)
+    
+  }
